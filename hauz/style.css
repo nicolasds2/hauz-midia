@@ -1,0 +1,225 @@
+/* Resetando CSS */
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
+
+    scroll-behavior: smooth;
+}
+
+/* Logo flutuante */
+.logo {
+    width: 30%;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* Main */
+main {
+    background-image: url(img/banner_0V0NXr6k8TYvw7aFJ7CH_1637860611329.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main h1 {
+    color: #f1f1f1;
+    font-size: 42px;
+}
+
+main p {
+    margin-top: 20px;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.div-headline {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.div-form {
+    width: 50%;
+    color: #f1f1f1;
+    background-color: #111;
+    padding: 50px;
+    border: 2px solid #4834d4;
+    border-radius: 6px;
+}
+
+input {
+    border-radius: 3px;
+    border: 0;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    color: #f1f1f1;
+    font-weight: 600;
+    background-color: #4834d4;
+    padding: 8px;
+    cursor:pointer;
+}
+
+.beneficios-1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.beneficios-1 .cards{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.beneficios-1 .card {
+    width: 25%;
+    padding: 40px;
+    background-color: #f1f1f1;
+    box-shadow: 2px 8px 15px;
+}
+.beneficios-1 .card h2 {
+    margin-bottom: 15px;
+}
+.estrategia {
+padding: 3%;
+margin: auto;
+}
+
+.estrategia h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.estrategia p {
+    text-align: center;
+}
+
+.beneficios-1 img {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.imob {
+    padding: 20vh 30vh 20vh 30vh;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.imob h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.imob p {
+    font-size: 20px;
+    color: #808080;
+}
+
+.corzinha {
+    color: #4834d4;
+}
+
+.beneficios-2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.beneficios-2 .cards{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.beneficios-2 .card {
+    width: 25%;
+    padding: 40px;
+}
+
+.beneficios-2 i {
+    color: #4834d4;
+    font-size: 40px;
+}
+
+.beneficios-2 img {
+    width: 40%;
+}
+
+.beneficios-3 {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+}
+.beneficios-3 .card {
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.beneficios-3 img {
+    width: 25%;
+}
+.beneficios-2 .ala {
+    display: flex;
+    flex-direction: row;
+}
+.presidente {
+    padding-top: 100px;
+    perspective: 1200px;
+    display: flex;
+    padding: 5%;
+}
+
+.presidente h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.presidente img {
+    max-width: 250px;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+}
+
+.presidente img:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+}
+
+footer {
+    background-image: url(img/banner_0V0NXr6k8TYvw7aFJ7CH_1637860611329.jpg);
+    padding: 100px;
+    color: #f1f1f1;
+}
+
+footer h2 {
+    margin-bottom: 30px;
+}
+summary {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+details {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
